@@ -23,7 +23,7 @@ import javax.swing.border.EmptyBorder;
 public class Window extends JFrame {
 
     private static final String[] EJEMPLOS = {
-        "x", "log(x)", "3*x^2", "2^x"
+        "x", "log(x)", "3*x^2", "2^x", "x^3 + 2*x"
     };
 
     private final TextField txtEntrada = new TextField("Ej: 5*x^2");
